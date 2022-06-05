@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Practica5</name>
+    <name>practica5</name>
     <url>https://github.com/LeslieR0SS/Practica5.git</url>
 
     <properties>
@@ -26,6 +26,12 @@
     </organization>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+        <dependency>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.7</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -36,6 +42,36 @@
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.22.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

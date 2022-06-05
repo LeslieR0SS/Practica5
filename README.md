@@ -40,4 +40,8 @@ los resultados obtenidos, % de tests pasados etc.
   ![git log --online and tags](capturas/gitlog.png)
 
 - ### Git graph, working tree:
-  ![git working tree]
+  ![git working tree](capturas/gitGraph.png)
+
+
+*Trabajo realizado por*
+##### Leslie Ross Aranibar Pozo - DAW dual 

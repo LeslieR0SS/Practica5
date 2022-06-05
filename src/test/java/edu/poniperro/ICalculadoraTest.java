@@ -20,4 +20,8 @@ public class ICalculadoraTest {
     public void testMultiplicar(){
         assertEquals("4x4",16, ICalculadora.multiplicar(4, 4), 0);
     }
+    @Test
+    public void testDividir(){
+        assertEquals("4/2",2,ICalculadora.dividir(4, 2),2);
+    }
 }

@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Practica5</name>
+    <name>practica5</name>
     <url>https://github.com/LeslieR0SS/Practica5.git</url>
 
     <properties>

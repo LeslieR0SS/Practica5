@@ -1,16 +1,12 @@
 package edu.poniperro;
 
 public interface ICalculadora {
-    public static int sumar(int numero, int numero1){
-        return numero + numero1;
-    }
-    public static int restar(int numero, int numero1){
-        return numero - numero1;
-    }
-    public static int multiplicar (int numero, int numero1){
-        return numero * numero1;
-    }
-    public static int dividir(int numero, int numero1){
-        return numero / numero1;
-    }
+
+    int sumar(int numero1, int numero2);
+
+    int restar(int numero1, int numero2);
+
+    int multiplicar(int numero1, int numero2);
+
+    int dividir(int numero1, int numero2);
 }

@@ -14,18 +14,18 @@ public class ICalculadoraTest {
     }
     @Test
     public void testSumar(){
-        assertEquals("1+1", 2, ICalculadora.sumar(1,1),0);
+        assertEquals("1+1", 2, calc.sumar(1,1),.001);
     }
     @Test
     public void testRestar(){
-        assertEquals("4-2", 2,ICalculadora.restar(4,2),1 );
+        assertEquals("4-2", 2, calc.restar(4,2),.001);
     }
     @Test
     public void testMultiplicar(){
-        assertEquals("4x4",16, ICalculadora.multiplicar(4, 4), 0);
+        assertEquals("4x4",16, calc.multiplicar(4, 4), .001);
     }
     @Test
     public void testDividir(){
-        assertEquals("4/2",2,ICalculadora.dividir(4, 2),2);
+        assertEquals("4/2",2, calc.dividir(4, 2),.001);
     }
 }

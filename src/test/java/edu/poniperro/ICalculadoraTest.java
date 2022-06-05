@@ -7,7 +7,11 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class ICalculadoraTest {
-
+    ICalculadora calc = null;
+    @Before
+    public void iniciar(){
+        calc = new Calculadora();
+    }
     @Test
     public void testSumar(){
         assertEquals("1+1", 2, ICalculadora.sumar(1,1),0);

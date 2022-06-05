@@ -34,6 +34,10 @@ los resultados obtenidos, % de tests pasados etc.
   ![ICalculadorTest](capturas/ICalculadoraTest.png)
 
 - ### Balance de tests pasados:
-- 
+   ![jacoco Report](capturas/jacocoReport.png)
+  
 - ### Git log y versionado semántico:
+  ![git log --online and tags](capturas/gitlog.png)
+
 - ### Git graph, working tree:
+  ![git working tree]
